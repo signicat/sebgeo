@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SIGViewController : UIViewController
+@interface SIGViewController : UIViewController{
+    IBOutlet UIWebView *webView;
+}
 
 @end
